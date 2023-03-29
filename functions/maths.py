@@ -15,6 +15,6 @@ def multiply(a, b):
     answer = a * b
     return answer
     
-def remainder(a,b):
+def modulus(a,b):
     answer = a % b
     return answer
