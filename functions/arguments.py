@@ -40,5 +40,3 @@ def concatenate_kwargs(**kwargs):
     for string in kwargs.values():
         joined_string = joined_string + ' ' + string
     return print(joined_string)
-
-concatenate_kwargs(a = 'Banana', b = 'grey')
