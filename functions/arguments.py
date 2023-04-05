@@ -21,14 +21,14 @@ def sum(*nums):
         result += num
     return result
 
-# 
+# key word arguments
 def multiply_many(**kwargs):
     result = 1
     for num in kwargs.values():
         result *= num
     return result
-# Assignments
 
+# Assignment
 def concatenate_args(*strings):
    joins = ''
    for string in strings:
