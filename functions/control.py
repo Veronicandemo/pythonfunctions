@@ -87,11 +87,6 @@ def checks_prime(num):
         else:
             print(f'{num} is not prime')   
 
-checks_prime(9)
-checks_prime(2)
-checks_prime(3)
-
-
 
 # Write a function that takes a list of integers as input and
 # prints the sum of all the even numbers in the list
@@ -102,7 +97,6 @@ def sum_even_nums(nums):
          sum+=i
     print(sum)
 
-# sum_even_nums([1,2,3,4,5,6,7,8,9])
 
 # Write a function that takes any two integers as input, and prints t
 # he sum of all the numbers between the two integers (inclusive) that are divisible by 3.
