@@ -73,20 +73,15 @@ def print_even_nums():
 # Write a function that takes an integer argument and
 # prints "Prime" if the number is prime, and "Not prime" if the number is not prime.
 def checks_prime(num):
-    y = range(2,num)
     if num <= 1:
         print(f"{num} is not a prime number")
-    else:
-        for i in y:
-            if i == 0:
+    elif num > 1:
+        for i in range(2, num):
+            if num % i == 0:
                 print(f'{num} "Not prime"')
                 break
-            elif (i % num) == 0:
-                print(f'{num} "a Prime"')
-                
         else:
-            print(f'{num} is not prime')   
-
+                print(f'{num} "a Prime"')
 
 # Write a function that takes a list of integers as input and
 # prints the sum of all the even numbers in the list
